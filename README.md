@@ -14,24 +14,24 @@ Share tools to improve development efficiency, mainly for Java development
 ### 1.2 快速上手
   下面以部署bimgis-data-aggr-app-1.0.0.jar应用为例讲解如何使用micro_sys_shell：
 1. 拷贝startup.sh、shutdown.sh脚本到应用部署的Linux环境；
-![Image text](micro_sys_shell/doc/1.png)
+![Image text](doc/1.png)
 
 2. 将需要管理的应用jar包完整路径填入startup.sh和shutdown.sh中的array_app数组变量中；
-![Image text](micro_sys_shell/doc/2.png)
+![Image text](doc/2.png)
 
 3. 执行 sh startup.sh -l （获取应用状态和appNum，这里appNum=1）
-![Image text](micro_sys_shell/doc/3.png)
+![Image text](doc/3.png)
 说明：
 + appNum:应用数字编码，用于启动、停止引用
 + state：应用状态，running-正在运行，dead-未运行
 + pid：应用进程号
 
 4. 执行 sh startup.sh -s 1 （启动应用）
-![Image text](micro_sys_shell/doc/4.png)
+![Image text](doc/4.png)
 
-![Image text](micro_sys_shell/doc/5.png)
+![Image text](doc/5.png)
 5. 执行 sh shutdown.sh -s 1  （停止应用）
-![Image text](micro_sys_shell/doc/6.png)
+![Image text](doc/6.png)
 ### 1.3 查看工具程序支持的命令参数
 执行 sh startup.sh
-![Image text](micro_sys_shell/doc/7.png)
+![Image text](doc/7.png)
