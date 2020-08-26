@@ -16,8 +16,8 @@ Share tools to improve development efficiency, mainly for Java development
 2. 将需要管理的应用jar包完整路径填入startup.sh和shutdown.sh中的array_app数组变量中；
 下面步骤均在linux命令行进行操作：
 3. 执行 sh startup.sh -l （获取应用状态和appNum，这里appNum=0）
-4、执行 sh startup.sh -s 0 （启动应用）
-5、执行 sh shutdown.sh -s 0  （停止应用）
+4. 执行 sh startup.sh -s 0 （启动应用）
+5. 执行 sh shutdown.sh -s 0  （停止应用）
 
 ### 1.3 查看工具程序支持的命令参数
 执行 sh startup.sh
